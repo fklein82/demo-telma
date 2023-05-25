@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: inclusion-portal
-  description: This is an application that promotes inclusion through a web portal
+  name: sarycom
+  description: This is an application that promotes SRC moviers through a web portal
   annotations:
     'backstage.io/techdocs-ref': dir:.
 spec:
