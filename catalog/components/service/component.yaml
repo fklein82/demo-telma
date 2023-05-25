@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: inclusion-portal
+  name: sarycom-portal
   description: Service collecting all emojis
   tags:
-    - inclusion
+    - sarycom
     - node
     - express
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=inclusion-node-portal'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=sarycom'
     'backstage.io/techdocs-ref': dir:.
   links:
     - url: https://nodejs.org/
@@ -18,6 +18,6 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-vmware-tanzu-se
-  system: emoji-portal
+  system: src-portal
   dependsOn:
     - Resource:api-backend
