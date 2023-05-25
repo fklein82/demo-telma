@@ -1,7 +1,7 @@
 accelerator:
   displayName: SRC portal
   description: Web Portal in Node.js using Express. 
-  iconUrl: https://github.com/fklein82/Inclusion-nodeportal/raw/main/acclerator.png
+  iconUrl: https://github.com/fklein82/demo-telma/raw/main/acclerator.png
   tags:
     - nodejs
     - express
